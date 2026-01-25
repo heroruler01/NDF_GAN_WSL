@@ -1,0 +1,13 @@
+exp_name = shapenetall
+data_dir = /home/sebastian/ndf-master/datasets/shapenet/data/02958343/
+split_file = /home/sebastian/ndf-master/datasets/shapenet/data/split_shapenetall.npz
+input_data_glob = /*/model.obj
+sample_std_dev = [0.08, 0.02, 0.003]
+sample_ratio = [0.01, 0.24, 0.75]
+
+input_res = 256
+pc_samples = 10000
+index = 50
+num_points=10000
+cam_position=[0, 1.5, 0]
+cam_orientation=[90.0, 0.0, 180.0]
