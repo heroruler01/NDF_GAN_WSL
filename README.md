@@ -42,7 +42,13 @@ Usage:
 Bash
 Note: In WSL, if the script freezes, ensure multiprocessing is disabled or num_workers=0 inside the script.
 python prepare_shapenet_dataset.py
-Step 2: Generate Dataset Index
+
+Insertion for WatertightnessInserts an internal kernel into the meshes to create "watertight" volumes, ensuring the network can learn the object's interior.Script: create_watertight_meshes.py (corresponds to prepare_watertight_dataset)Output: data/shapenet/00_good_watertight
+ 
+
+Automated Model SelectionFilters raw ShapeNet models to keep only non-watertight models with sufficient geometric complexity (internal details).Script: prepare_internal_detail.py < Input: data/shapenet/00_good (Raw)  Output: data/shapenet/00_good (Selected)1.2 
+
+ Generate Dataset Index
 Scans the preprocessed folder and creates a train.txt manifest file required by the training loader.
 
 Script: create_textfile.py
