@@ -81,3 +81,5 @@ Column 3: Distance value (SDF).
 < 0: Inside the object.
 
 > 0: Outside the object.
+<img width="805" height="785" alt="image" src="https://github.com/user-attachments/assets/5ef2b7ab-b9dd-4100-9851-9503e2020229" />
+<img width="1499" height="887" alt="image" src="https://github.com/user-attachments/assets/301b8be8-0ad0-48d3-882c-65df728b088d" />
