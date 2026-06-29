@@ -1,4 +1,7 @@
+# 3D CAD Point Cloud Preprocessing Pipeline
 
+Converts raw CAD meshes (.obj) into structured point clouds using Neural Distance Fields (NDF).  
+Output: uniformly sampled point clouds with **2,048 points** per model, ready for downstream 3D deep learning tasks.
 🛠️ Data Processing Pipeline for NDF-GAN
 
 This module is responsible for converting raw 3D meshes (ShapeNet `.obj` files) into Neural Distance Fields (NDF) point clouds (`.npy` format) required for training the GAN.
